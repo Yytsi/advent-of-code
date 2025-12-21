@@ -2,5 +2,4 @@
 
 ## Reading input
 
-On some problems, I only read a predefined amount of input (e.g. range(138)), so for `example.txt` input
-files to work, you may need to adjust that number.
+Some problems assume a fixed input size (e.g., range(138)); adjust this if you want to use `example.txt` files as input.

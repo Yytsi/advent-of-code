@@ -22,4 +22,4 @@ for (dist, i, j) in sorted(distances_and_points)[:1000]:
 root_heads_instances = list(map(top, p))
 
 m = sorted(root_heads_instances.count(e) for e in set(p))
-print(eval("*".join(map(str, m[-3:]))))
+print(m[-1] * m[-2] * m[-3])
